@@ -7,14 +7,14 @@ A AT89C51 (8051) based project to regulate automated irragation of fields. The e
  </ol>
 
 ### Working
-Solar tracker syatem :2 LDRs are used to detect the intensity of the light on the solar panel. Each LDR is placed on either side of the solar panels.And the output of the LDRs are given to the input pins of ADC0808.Using the adc the analog inputs from the ldr is converted to digital. On comparing the outputs of the LDRs the base motor which is used to tilt the axis of Panel is controlled and thus maximum energy is harvested.
+Solar tracker syatem: 2 LDRs are used to detect the intensity of the light on the solar panel. Each LDR is placed on either side of the solar panels.And the output of the LDRs are given to the input pins of ADC0808.Using the adc the analog inputs from the ldr is converted to digital. On comparing the outputs of the LDRs the base motor which is used to tilt the axis of Panel is controlled and thus maximum energy is harvested.
 
 Automated irrigation system: The soil moisture is determined using the YL69 and YL38 modules and using this data, if the field requires moisture content, the pump is initiated and  the soil retains the moisture content, the pump is turned off automatically.
 
 
 ### Components Used:
 <ol>
- <li>AT89C51<li>
+ <li>AT89C51</li>
  <li>LDRs</li>
  <li>L293D driver IC(for driving stepper motor)</li>
  <li>NEMA17 bipolar stepper motor</li>
